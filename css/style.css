@@ -1,0 +1,124 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+header ul li {
+    padding: 10px;
+    display: inline;
+    /*Coloca os elementos em linha*/
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:visited {
+    color: white
+}
+
+header a:hover,
+#contacto a:hover {
+    color: rgb(0, 183, 255);
+    text-decoration: underline;
+}
+
+main {
+    margin: 10px 15%;
+}
+
+#sobre p {
+    text-align: justify;
+    padding: 20px 0 0 0;
+}
+
+
+.fotoperfil {
+    width: 200px;
+    /* Largura da imagem */
+    height: 200px;
+    /* Altura da imagem (deve ser igual à largura) */
+    border-radius: 100%;
+    /* Arredonda as bordas completamente, criando o círculo */
+    object-fit: cover;
+    /* Evita que a foto fique esticada ou deformada */
+    display: block;
+    margin: 20px auto;
+    border: 4px solid red;
+}
+
+#sobre p {
+
+    line-height: 1.6;
+    font-size: large;
+}
+
+/* Remover negrito padrão dos headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+#educacao h2,
+#experiencia h2,
+#competencias h2,
+#glossario h2,
+#contacto h2 {
+    color: #42c6ad;
+    border-bottom: solid 2px #42c6ad;
+}
+
+#educacao table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#educacao th {
+    background-color: #42c6ad;
+    color: white;
+    text-align: left;
+}
+
+#educacao th,
+#educacao td {
+    padding: 8px;
+    border: 1px solid #42c6ad;
+}
+
+#experiencia table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#experiencia th {
+    background-color: #42c6ad;
+    color: white;
+    text-align: left;
+}
+
+#experiencia th,
+#experiencia td {
+    padding: 8px;
+    border: 1px solid #42c6ad;
+}
